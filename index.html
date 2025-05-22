@@ -6,18 +6,18 @@
   <title>Acerta 6 - Bolão entre Amigos</title>
   <style>
     body {
-      margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
       background: linear-gradient(135deg, #00b894, #0984e3);
       color: white;
+      margin: 0;
+      padding: 0;
     }
     header {
       text-align: center;
-      padding: 30px 20px 20px;
+      padding: 40px 20px 20px;
     }
     header img.logo {
-      max-width: 200px;
+      max-width: 180px;
       margin-bottom: 20px;
     }
     header video {
@@ -27,34 +27,37 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
     }
     section {
-      padding: 20px;
       max-width: 900px;
       margin: 0 auto;
+      padding: 20px;
+    }
+    section p {
+      line-height: 1.6;
     }
     .grupo {
       background: rgba(255,255,255,0.1);
       border-radius: 15px;
       padding: 20px;
-      margin-bottom: 30px;
+      margin: 20px auto;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .grupo h2 {
+      margin-top: 0;
+      font-size: 1.5em;
     }
     .grupo img {
       width: 100%;
       max-height: 250px;
       object-fit: cover;
       border-radius: 10px;
-      margin-top: 15px;
-    }
-    .grupo h2 {
-      margin-top: 0;
-      font-size: 1.5em;
+      margin-top: 10px;
     }
     .grupo a {
       display: inline-block;
       margin-top: 10px;
       padding: 10px 20px;
-      background: #fff;
-      color: #00b894;
+      background: #25D366;
+      color: white;
       font-weight: bold;
       text-decoration: none;
       border-radius: 30px;
@@ -68,11 +71,12 @@
   </style>
 </head>
 <body>
+
   <header>
     <img src="images/logo_acerta6.png" alt="Logo Acerta 6" class="logo" />
     <video controls>
       <source src="video/video.mp4" type="video/mp4" />
-      Seu navegador não suporta o vídeo HTML5.
+      Seu navegador não suporta vídeo HTML5.
     </video>
     <h1>Venha para o Acerta 6!</h1>
   </header>
@@ -96,31 +100,40 @@
 
   <section class="grupo">
     <h2>Bolão - Bar da Domícia</h2>
-    <p><strong>Valor da cota:</strong> R$20,00</p>
-    <p><strong>Tempo restante:</strong> 5 dias</p>
-    <a href="https://wa.me/5531998974050" target="_blank">Entrar no grupo</a>
-    <img src="images/bar_domicia.jpg" alt="Bar da Domícia"/>
+    <p>Valor da cota: R$20,00</p>
+    <a href="https://wa.me/5522988301744" target="_blank">Entrar no grupo</a>
+    <img src="images/bar_domicia.jpg" alt="Bar da Domícia">
   </section>
 
   <section class="grupo">
     <h2>Bolão - Restaurante Calambau</h2>
-    <p><strong>Valor da cota:</strong> R$20,00</p>
-    <p><strong>Tempo restante:</strong> 6 dias</p>
-    <a href="https://wa.me/5531998974050" target="_blank">Entrar no grupo</a>
-    <img src="images/restaurante_calambau.jpg" alt="Restaurante Calambau"/>
+    <p>Valor da cota: R$20,00</p>
+    <a href="https://wa.me/5522988301744" target="_blank">Entrar no grupo</a>
+    <img src="images/restaurante_calambau.jpg" alt="Restaurante Calambau">
   </section>
 
   <section class="grupo">
     <h2>Bolão - Grupo Tubarão</h2>
-    <p><strong>Valor da cota:</strong> R$100,00</p>
-    <p><strong>Tempo restante:</strong> 7 dias</p>
-    <a href="https://wa.me/5531998974050" target="_blank">Entrar no grupo</a>
-    <img src="images/grupo_tubarao.jpg" alt="Grupo Tubarão"/>
+    <p>Valor da cota: R$100,00</p>
+    <a href="https://wa.me/5522988301744" target="_blank">Entrar no grupo</a>
+    <img src="images/grupo_tubarao.jpg" alt="Grupo Tubarão">
   </section>
 
   <footer>
     &copy; 2025 Acerta 6 - Todos os direitos reservados.<br>
-    Siga-nos no WhatsApp e Telegram para ficar por dentro dos sorteios e bares parceiros!
+    Siga-nos nas redes sociais e compartilhe com os amigos!
   </footer>
+
+  <!-- Botão flutuante com logo personalizada -->
+  <a href="https://wa.me/5522988301744" target="_blank" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;">
+    <img src="images/whatsapp_acerta6.png"
+         alt="Fale no WhatsApp"
+         style="width: 65px; height: 65px; border-radius: 50%; box-shadow: 0 0 12px rgba(0,0,0,0.3);" />
+  </a>
+
 </body>
 </html>
